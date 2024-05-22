@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Academia fitness</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+</head>
+<body>
+    <header id="header">
+        <nav>    
+            <div class="logo">        
+                <a href="">
+                    <img src="./assets/images/logo.png" alt="logo" />
+                </a>
+            </div>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#activities">Atividades</a></li>
+                <li><a href="#prices">Preços</a></li>                
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contacts">Contatos</a></li>
+            </ul>            
+        </nav>
+    </header>
+    <section id="home" class="slider">
+        <div class="slider-content">
+            <input type="radio" name="btn-radio" id="radio1">
+            <input type="radio" name="btn-radio" id="radio2">
+            <input type="radio" name="btn-radio" id="radio3">
+
+            <div class="slide-box primary">
+                <img src="assets/images/slide1.jpg" alt="slide 1">
+                <div class="info">
+                    <h2>Musculação</h2>
+                    <p>Força e Musculos</p>
+                </div>
+            </div>
+
+            <div class="slide-box">
+                <img src="assets/images/slide2.jpg" alt="slide 2">
+                <div class="info">
+                    <h2>Spinning</h2>
+                    <p>Emagrecimento e Definição</p>
+                </div>
+            </div>
+
+            <div class="slide-box">
+                <img src="assets/images/slide3.jpg" alt="slide 3">
+                <div class="info">
+                    <h2>Crossfit</h2>
+                    <p>Resistência e Determinação</p>
+                </div>
+            </div>
+
+            <div class="nav-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+            </div>
+
+            <div class="nav-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    <main>
+        <section id="about" class="container-about">
+            <div class="about">
+                <img src="./assets/images/img-about.png" alt="imagem sobre">
+                <div class="about-content">
+                    <span>Sobre Nós</span>
+                    <h2>Muito Mais Que Uma Academia</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatem quisquam consequatur iure harum eaque odio impedit? Odit consequatur, cumque accusamus blanditiis velit sint dolorem unde, inventore vero perspiciatis vitae rerum!</p>
+                </div>
+            </div>
+        </section>
+        <section id="activities" class="container-services">
+            <div class="container">
+                <div class="services">
+                    <span>Serviços</span>
+                    <h2>A Mais Completa da Cidade</h2>
+                </div>
+                <div class="service-cards">
+                    <div class="card">
+                        <img src="./assets/images/slide1.jpg" alt="Musculação">
+                        <div class="info">
+                            <h3>Musculação</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate vitae eum, fugit eos a, sunt necessitatibus hic libero rem similique itaque numquam cum minima voluptates perferendis amet atque pariatur odio!</p>
+                            <button>Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/slide2.jpg" alt="Spinning">
+                        <div class="info">
+                            <h3>Spinning</h3>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nemo assumenda enim nulla, quia animi quod molestiae aperiam inventore ex accusantium eveniet dolor id vel odio expedita, vero et minima illum?</p>
+                            <button>Saiba Mais</button>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <img src="./assets/images/img4.png" alt="Crossfit">
+                        <div class="info">
+                            <h3>Crossfit</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor consequuntur ex consequatur deserunt repellat laudantium eum impedit aliquam sit culpa iste fuga, ducimus quam delectus necessitatibus? Eaque officia.</p>
+                            <button>Saiba Mais</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="prices" class="container-prices">
+            <div class="container">
+                <div class="prices">
+                    <span>Preços</span>
+                    <h2>Saúde Até Para Seu Bolso</h2>
+                </div>
+                <div class="price-cards">
+                    <div class="price-card">
+                        <div class="price-info">
+                            <h3>MUSCULAÇÃO</h3>
+                            <p>Ganho de massa muscular</p>
+                        </div>
+                        <div class="price">
+                            <p>R$ 89 / Mensal</p>
+                            <button>Selecionar esse plano</button>
+                            <span>Todos os dias</span>
+                        </div>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-info">
+                            <h3>SPIN</h3>
+                            <p>Emagrecimento e definição</p>
+                        </div>
+                        <div class="price">
+                            <p>R$ 69 / Mensal</p>
+                            <button>Selecionar esse plano</button>
+                            <span>Duas vezes por semana</span>
+                        </div>
+                    </div>
+                    <div class="price-card">
+                        <div class="price-info">
+                            <h3>CROSSFIT</h3>
+                            <p>Detonador de calorias</p>
+                        </div>
+                        <div class="price">
+                            <p>R$ 99 / Mensal</p>
+                            <button>Selecionar esse plano</button>
+                            <span>Tres vezes por semana</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="container-images">
+            <div class="images">
+                <div class="primary">
+                    <div class="image">
+                        <img src="assets/images/slide2.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/2.jpeg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/3.jpeg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/4.jpeg" alt="">
+                    </div>
+                </div>
+                <div class="secondary">
+                    <div class="image">
+                        <img src="assets/images/5.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/6.jpeg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/7.jpeg" alt="">
+                    </div>
+                    <div class="image">
+                        <img src="assets/images/8.jpeg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="container-blog">
+            <div class="blog">
+                <div class="blog-post">
+                    <img src="./assets/images/5.jpg" alt="pilates">
+                    <div class="blog-info">
+                        <h3>Faça Pilates</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reprehenderit nostrum quis, natus rem blanditiis nulla nam.</p>
+                        <a href="">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <img src="./assets/images/img-about.png" alt="Queimar Gordura">
+                    <div class="blog-info">
+                        <h3>Como Queimar a Gordura</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sed vero alias aperiam fugit minus facere numquam.</p>                        
+                        <a href="">Saiba Mais</a>
+                    </div>
+                </div>
+                <div class="blog-post">
+                    <img src="./assets/images/slide2.jpg" alt="Exercícios Aeróbicos">
+                    <div class="blog-info">
+                        <h3>Exercícios Aeróbicos</h3>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ab ad quasi modi neque animi voluptatum harum nemo pariatur iste.</p>
+                        <a href="">Saiba Mais</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer id="contacts">
+        <div class="container-footer">
+            <div class="contact">
+                <div class="contact-info">
+                    <p>Estamos aqui para te ajudar</p>
+                    <h3>Entre em Contato Hoje</h3>
+                </div>
+                <form>
+                    <input type="text" placeholder="Nome" required>
+                    <input type="email" placeholder="Email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-info container-footer">            
+                <p>© 2024 Todos Os Direitos Reservados</p>
+                <div class="social-icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                    <a href="#"><img src="whatsapp-icon.png" alt="WhatsApp"></a>
+                </div>            
+        </div>
+    </footer>
+    <script src="./assets/script.js"></script>
+</body>
+</html>
